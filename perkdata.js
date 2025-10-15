@@ -54,7 +54,7 @@ const tcm__perkData = [
 	[49,"jack in the box","strength","When leaving a hiding spot, you take 35% less damage for 11 seconds.",[1,7]],
 	[50,"tae kwon door","strength","Slamming doors on Family members will stun the target for 8 seconds.",[3,7]],
 	
-	[51,"am i bleeding?","toughness","When your health is below 40%, you are highlighted to all fellow Victims.",[5,7]],
+	[51,"am i bleeding","toughness","When your health is below 40%, you are highlighted to all fellow Victims.",[5,7]],
 	[52,"bounce back better","toughness","Healing items used on you are 40% more effective. Counts for being healed and healing yourself.",[7,7]],
 	[53,"efficient backstabber","toughness","Sneak attacks have a chance to not consume a bone scrap. Chance is 20%.",[8,7]],
 	[54,"full hearts","toughness","While below 25% health, all healing items within 25 meters are highlighted.",[9,7]],
