@@ -171,10 +171,17 @@ function tcm__showShareString()
 		tcm__updateShareString(window.tcm__temp.selectedChar);
 }
 
-function tcm__updateShareString(charName)
-{
-	g__shareInput.value = `tcmperks.tcmmodes?char=${charName}&build=${tcm__encodeBuildString(charName)}`;
+function tcm__updateShareString(charName) {
+  const base =
+    (typeof g__shareBase === "string" && g__shareBase.trim().length)
+      ? g__shareBase.trim().replace(/\/+$/, "")            // explicit override, no trailing slash
+      : (location.origin + location.pathname).replace(/\/+$/, ""); // current page origin+path
+
+  const build = tcm__encodeBuildString(charName);
+  const url = `${base}?char=${encodeURIComponent(charName)}&build=${build}`;
+  g__shareInput.value = url;
 }
+
 
 function tcm__undoChoice()
 {
