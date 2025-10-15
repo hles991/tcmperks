@@ -54,7 +54,7 @@ const tcm__perkData = [
 	[49,"jack in the box","strength","When leaving a hiding spot, you take 35% less damage for 11 seconds.",[1,7]],
 	[50,"tae kwon door","strength","Slamming doors on Family members will stun the target for 8 seconds.",[3,7]],
 	
-	[51,"am i bleeding","toughness","When your health is below 40%, you are highlighted to all fellow Victims.",[5,7]],
+	[51,"am i bleeding?","toughness","When your health is below 40%, you are highlighted to all fellow Victims.",[5,7]],
 	[52,"bounce back better","toughness","Healing items used on you are 40% more effective. Counts for being healed and healing yourself.",[7,7]],
 	[53,"efficient backstabber","toughness","Sneak attacks have a chance to not consume a bone scrap. Chance is 20%.",[8,7]],
 	[54,"full hearts","toughness","While below 25% health, all healing items within 25 meters are highlighted.",[9,7]],
@@ -162,7 +162,7 @@ const tcm__perkData = [
 	[232,"tracker tagged","endurance","Hitting a Victim highlights them for all Family members. Highlight duration is 5 seconds.",[5,2]],
 	[233,"unrelenting","endurance","Your Endurance is increased by 7.",[6,2]],
 	
-	[234,"insult to injury","unique","Hitting a Victim with the chainsaw reduces 15% of their stamina.",[8,3]],
+	[234,"2 cycle charge","unique","While revving your chainsaw, you regenerate stamina 60% faster.",[8,3]],
 	[235,"bloodlust","unique","Leatherface does 30% more damage after executing a Victim at the gallows.",[0,4]],
 	/*PERK GONE [236,"bringing home the bacon","unique","Carrying a Victim highlights Leatherface to all Family members for 30 seconds.",[2,4]],*/
 	[237,"efficient herbalist","unique","Poisoning an object has a 75% chance to not consume any powder.",[5,4]],
